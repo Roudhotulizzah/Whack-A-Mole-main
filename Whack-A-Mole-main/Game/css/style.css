@@ -1,0 +1,81 @@
+body {
+  background-image: url(../img/bg6.jpg);
+}
+
+h3 {
+  text-shadow: 5px 5px rgba(128, 128, 128, 0.548);
+  font-size: 50px;
+  text-align: center;
+  font-family: italic;
+  margin: 20px;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+.karakter1, .karakter2, .karakter3{
+  border: 2px solid #fff;
+  background: transparent;
+  margin: 30px 25px 5px 22px;
+  padding-bottom: 40px;
+  text-align: center;
+  box-shadow: 0 0 10px #fff, 10px 5px 5px 0px #01030e;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  transition: transform;
+  background-image: url(../img/bg_karakter.jpg);
+  bac
+}
+
+.karakter1:hover{
+  transform: scale(1.1);
+}
+
+.karakter2:hover{
+  transform: scale(1.1);
+}
+
+.karakter3:hover{
+  transform: scale(1.1);
+}
+.karakter1 p, .karakter2 p, .karakter3 p{
+  color: black;
+  font-weight: 400;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.isi-karakter1, .isi-karakter2, .isi-karakter3{
+  margin: 5px 0px 5px 0px;
+}
+
+.isi-karakter1 img,.isi-karakter2 img,
+.isi-karakter3 img {
+  width: 230px; /* Sesuaikan dengan ukuran yang diinginkan */
+  height: 140px; /* Sesuaikan dengan ukuran yang diinginkan */
+}
+
+.button {
+  display: flex;
+  color: white;
+  background-color: chocolate;
+  border-radius: 17px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+  margin-top: 10px;
+  width: 150px;
+  height: 40px;
+  font-size: 18px;
+  box-shadow: 2px 2px 4px rgba(139, 7, 115, 0.6), -2px -2px 4px rgba(41, 128, 185, 1);
+  text-decoration: none;
+}
+
+.button a {
+  color: white;
+}
